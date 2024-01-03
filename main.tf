@@ -135,12 +135,12 @@ module "monitoring-lb" {
 
 module "route53" {
   source            = "./module/route53-ssl"
-  domain-name       = "funmibideji-cloud.link"
-  domain-name1      = "stage.funmibideji-cloud.link"
-  domain-name2      = "prod.funmibideji-cloud.link"
-  domain-name3      = "graf.funmibideji-cloud.link"
-  domain-name4      = "prom.funmibideji-cloud.link"
-  domain-name5      = "*.funmibideji-cloud.link"
+  domain-name       = "tundeafod.click"
+  domain-name1      = "stage.tundeafod.click"
+  domain-name2      = "prod.tundeafod.click"
+  domain-name3      = "graf.tundeafod.click"
+  domain-name4      = "prom.tundeafod.click"
+  domain-name5      = "*.tundeafod.click"
   stage_lb_dns_name = module.environment-lb.stage-dns-name
   stage_lb_zoneid   = module.environment-lb.stage-zoneid
   prod_lb_dns_name  = module.environment-lb.prod-dns-name

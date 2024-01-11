@@ -1,12 +1,12 @@
 locals {
 name      = "k8cstafod"
-prvtsub01 = "subnet-0cad2dccad9714b99"
-prvtsub02 = "subnet-0f90b1320b97600e1"
-prvtsub03 = "subnet-098ba5c1b0f2ed3b7"
-pubsub01-id = "subnet-0d7f0159f26544a4b"
-pubsub02-id = "subnet-0463f9ff16393fbd4"
-pubsub03-id = "subnet-02c8dbd3a6bcbdff2"
-vpc-id = "vpc-0ea4df64f8d153119"
+prvtsub01 = "subnet-007bee3314905706a"
+prvtsub02 = "subnet-0583f2c6cf92b14b3"
+prvtsub03 = "subnet-0ee47559452a355b4"
+pubsub01-id = "subnet-02c01524174402240"
+pubsub02-id = "subnet-00873ab63370f6a85"
+pubsub03-id = "subnet-0cd0b349db6ca4705"
+vpc-id = "vpc-0abf6ef550ad868e4"
 }
 
 data "aws_vpc" "vpc" {

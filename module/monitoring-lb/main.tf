@@ -21,7 +21,7 @@ resource "aws_lb_target_group_attachment" "prom-attachment" {
   count                 = 3
 }
 
-# Creating promethues LB Target Group
+# Creating promethues LB
 resource "aws_lb" "prom-lb" {
   name                 = var.tag-prom-lb
   internal             = false
